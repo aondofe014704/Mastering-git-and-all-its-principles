@@ -1,0 +1,50 @@
+<style>
+    .get-started{
+        background-color: rgb(121, 82, 179);
+        color: white;
+        height: 36px;
+        width: 100px;
+        border-style: none;
+        border-radius:3px;
+        font-weight: bold;
+        transition: opacity 3s;
+    }
+    .get-started:hover{
+        background-color: black;
+        opacity: 0.6;
+        color: red;
+    }
+    .get-started:active{
+        opacity: 2s;
+        border-color: yellow;
+        border-width: 3px;
+    }
+    .download{
+        background-color: white;
+        color: black;
+        height: 36px;
+        width: 100px;
+        border-style: solid;
+        border-color: rgb(108, 117, 125);
+        border-width: 1px;
+        margin-left: 10px;
+        border-radius: 4px;
+        font-weight: bold;
+        transition: border-style 1s linear;
+        transition: opacity 1s linear;
+    }
+    .download:active{
+        background-color: blue;
+        color: white;
+        border-style: dashed;
+    }
+    .download:hover{
+        background-color: red;
+        opacity: 0.7;
+    }   
+
+</style>
+<p>Bootstrap</p>
+
+<button class="get-started">Get Started</button>
+<button class="download">Download</button>

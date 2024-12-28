@@ -1,0 +1,17 @@
+.model-3{
+    text-decoration: wavy;
+}
+.order-online{
+    /* background-color: yellow; */
+    color: black;
+    /* border: 1px solid black; */
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.touchless{
+    text-decoration: underline;
+}
+body{
+    font-family: Montserrat;
+}
